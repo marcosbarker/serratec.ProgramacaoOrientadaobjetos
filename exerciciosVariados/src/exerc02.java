@@ -31,10 +31,10 @@ public class exerc02 {
 		divisao = numero1 / numero2;
 		multiplicacao = numero1 * numero2;
 
-		System.out.println("A soma de " + numero1 + " + " + numero2 + " �: " + soma);
-		System.out.println("A subtracao de " + numero1 + " - " + numero2 + " �: " + subtracao);
-		System.out.println("A divisao de " + numero1 + " / " + numero2 + " �: " + divisao);
-		System.out.println("A multiplicacao de " + numero1 + " * " + numero2 + " �: " + multiplicacao);
+		System.out.println("A soma de " + numero1 + " + " + numero2 + " e: " + soma);
+		System.out.println("A subtracao de " + numero1 + " - " + numero2 + " e: " + subtracao);
+		System.out.println("A divisao de " + numero1 + " / " + numero2 + " e: " + divisao);
+		System.out.println("A multiplicacao de " + numero1 + " * " + numero2 + " e: " + multiplicacao);
 
 		out.close();
 	}

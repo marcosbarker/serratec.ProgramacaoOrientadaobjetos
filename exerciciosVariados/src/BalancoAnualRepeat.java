@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BalancoAnualLooping {
+public class BalancoAnualRepeat {
     public static void main(String[] args) {
 
         Scanner out = new Scanner(System.in);
