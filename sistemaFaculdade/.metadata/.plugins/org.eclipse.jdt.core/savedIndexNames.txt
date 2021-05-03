@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+E:\CURSOS\SERRATEC\4_Programação Orientada a Objetos\sistemaFaculdade\.metadata\.plugins\org.eclipse.jdt.core
+403063711.index
+3298412463.index
