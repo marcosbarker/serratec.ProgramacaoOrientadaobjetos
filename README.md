@@ -26,9 +26,9 @@
 
 ## <img  height="40px" align="center" src="assets/coin.gif"> Atividades
 
-* [Exercícios Variados](exercicios/)
+* [Exercícios Variados](exercicios/)</br>
 * [Material de Aula](materialDeAula/)</br>
-* [Projeto Sistema Faculdade]()
+* [Projeto Sistema Faculdade](sistemaFaculdadeFuncionarios/)</br>
 ⚡ [**Projeto Final**]()
 
 </br>
