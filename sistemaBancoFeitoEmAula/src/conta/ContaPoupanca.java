@@ -1,40 +1,30 @@
 package conta;
 
-public class ContaPoupanca extends Conta {
-
-	private int vencimento;
+public class ContaPoupanca extends Conta{
+	
+	private Integer vencimento;
 	private double rendimento;
 
 	public ContaPoupanca() {
-		
 	}
-
-	public int getVencimento() {
-		return vencimento;
-		
-	}
-
-	public void setVencimento(int vencimento) {
+	
+	public ContaPoupanca(String tipo, Integer agencia, Integer numero, double saldo, Integer idCliente, Integer vencimento, double rendimento) {
+		super(tipo, agencia, numero, saldo, idCliente);
 		this.vencimento = vencimento;
-		
+		this.rendimento = rendimento;
 	}
 
+	public Integer getVencimento() {
+		return vencimento;
+	}
+	public void setVencimento(Integer vencimento) {
+		this.vencimento = vencimento;
+	}
 	public double getRendimento() {
 		return rendimento;
-		
 	}
-
 	public void setRendimento(double rendimento) {
 		this.rendimento = rendimento;
-		
-	}
-
-	@Override
-	public String toString() {
-		return "ContaPoupanca [vencimento=" + vencimento + ", rendimento=" + rendimento + ", getNumero()=" + getNumero()
-				+ ", getNome()=" + getNome() + ", getSobrenome()=" + getSobrenome() + ", getSaldo()=" + getSaldo()
-				+ ", getCPF()=" + getCPF() + "]";
-	
 	}
 
 }

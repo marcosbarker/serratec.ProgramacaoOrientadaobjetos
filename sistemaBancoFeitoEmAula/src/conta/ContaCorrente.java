@@ -1,59 +1,33 @@
 package conta;
 
-public class ContaCorrente extends Conta implements ContaOnline {
+public class ContaCorrente extends Conta {
 
-	private int investimento;
-	private int tarifa;
-
-	public ContaCorrente() {
-		
-	}
-
-	public int getInvestimento() {
-		return investimento;
-		
-	}
-
-	public void setInvestimento(int investimento) {
-		this.investimento = investimento;
-		
-	}
-
-	public int getTarifa() {
-		return tarifa;
-		
-	}
-
-	public void setTarifa(int tarifa) {
-		this.tarifa = tarifa;
-		
-	}
-
-	@Override
-	public String toString() {
-		// return "Conta Corrente: "+this.getSaldo();
-		return "ContaCorrente [investimento=" + investimento + ", tarifa=" + tarifa + ", getNumero()=" + getNumero()
-				+ ", getNome()=" + getNome() + ", getSobrenome()=" + getSobrenome() + ", getSaldo()=" + getSaldo()
-				+ ", getCPF()=" + getCPF() + "]";
+	private Integer investimento;
+	private Integer tarifa;
 	
+	public ContaCorrente() {
+	}
+	
+	public ContaCorrente(String tipo, Integer agencia, Integer numero, double saldo, Integer idCliente, Integer tarifa, Integer investimento) {
+		super(tipo, agencia, numero, saldo, idCliente);
+		this.tarifa = tarifa;
+		this.investimento = investimento;
 	}
 
-	@Override
-	public void transfereViaPix() {
-		System.out.println("Transferencia via PIX");
-
+	public Integer getInvestimento() {
+		return investimento;
 	}
-
-	@Override
-	public void transfereViaTED() {
-		System.out.println("Transferencia via TED");
-
+	
+	public void setInvestimento(Integer investimento) {
+		this.investimento = investimento;
 	}
-
-	@Override
-	public void transfereViaDOC() {
-		System.out.println("Transferencia via DOC");
-
+	
+	public Integer getTarifa() {
+		return tarifa;
+	}
+	
+	public void setTarifa(Integer tarifa) {
+		this.tarifa = tarifa;
 	}
 
 }

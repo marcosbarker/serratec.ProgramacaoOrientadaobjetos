@@ -2,16 +2,19 @@ package pessoal;
 
 public class Estagiario extends Assistente {
 	
-	@Override
-	public double getBonificacao() {
-		return this.salario*0.10; 
-		
+	
+	public Estagiario() {
+		super();
+	}
+
+	public Estagiario(String tipo, String nome, Integer id, String cpf, String senha, Integer agencia, double salario,
+			String funcionarioAssistido, Integer numeroConta) {
+		super(tipo, nome, id, cpf, senha, agencia, salario, numeroConta, funcionarioAssistido);
 	}
 
 	@Override
-	public String toString() {
-		//return "Estagiario: "+ this.nome;
-		return "Estagiario\n\tnome=" + nome + ", \n\tsalario=" + salario + ", \n\tcpf=" + cpf;
+	public double getBonificacao() {
+		return this.getSalario()*0.10; 
 	}
 	
 }
