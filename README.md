@@ -27,14 +27,13 @@
 ## <img  height="40px" align="center" src="assets/coin.gif"> Atividades
 
 * [Material de Aula](materialDeAula/)</br>
-* [Exercícios Variados](exercicios/)</br>
+* [Exercícios Variados](exerciciosVariados/)</br>
 * [Projeto Banco (*Feito em aula*)](sistemaBancoFeitoEmAula/)
 * [Projeto Sistema Faculdade](sistemaFaculdadeFuncionarios/)</br>
  
-### ⚡Projeto Final
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Sistema Banco (*Zeroth National Bank*)**](sistemaBancoAvaliacao/)
-
-</br>
+### ⚡Projeto Final     
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Sistema Banco (*Zeroth National Bank*)**](sistemaBancoAvaliacao/)</br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*Enunciado*](sistemaBancoAvaliacao/documento/projetoFinalDisciplinaJava.pdf)</br>    
 
 ## <img  height="45px" align="center" src="assets/stockrocketgif.gif"> Tecnologia Utilizada
 
