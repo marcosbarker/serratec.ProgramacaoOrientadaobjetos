@@ -26,12 +26,13 @@
 
 ## <img  height="40px" align="center" src="assets/coin.gif"> Atividades
 
-* [Exercícios Variados](exercicios/)</br>
 * [Material de Aula](materialDeAula/)</br>
+* [Exercícios Variados](exercicios/)</br>
+* [Projeto Banco (*Feito em aula*)](sistemaBancoFeitoEmAula/)
 * [Projeto Sistema Faculdade](sistemaFaculdadeFuncionarios/)</br>
  
 ### ⚡Projeto Final
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Sistema Banco (Zeressemos Bank)**]()
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Sistema Banco (*Zeroth National Bank*)**](sistemaBancoAvaliacao/)
 
 </br>
 
